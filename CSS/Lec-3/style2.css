@@ -1,0 +1,11 @@
+/* starts with */
+a[href^='https']{
+    color:brown;
+}
+/* ends with */
+a[href$='in']{
+    color:rgb(224, 172, 28);
+}
+a[href*='twitter']{
+    color:darkgreen;
+}

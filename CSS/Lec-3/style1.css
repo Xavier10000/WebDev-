@@ -1,0 +1,60 @@
+div{
+    height: 200px;
+    width: 200ox;
+    border: 2px solid black;
+    background-color: blue;
+
+}
+div:hover{
+    background-color:cadetblue;
+    border-radius: 50%;
+}
+a:visited{
+    background-color: rgb(22, 22, 21);
+    color:rgb(31, 231, 98);
+}
+button{
+    font-size: 2rem;
+}
+input:focus{
+    background-color: darkorange;
+}
+button:active{
+    background-color: darkgreen;
+    color: darkmagenta;
+}
+/* structural pseudo class */
+section p:nth-of-type(1){
+    color:darkred;
+}
+section p:nth-last-of-type(2){
+    color:rgb(151, 14, 231);
+}
+
+section p:last-child{
+    color: darkturquoise;
+}
+section p:nth-of-type(2n+3){
+    background-color:deeppink;
+}
+/* psuedu element selctor */
+h1::first-letter{
+    font-size: 50px;
+    color: fuchsia;
+}
+section p:nth-of-type(2)::first-letter{
+    color:greenyellow;
+}
+h1::after{
+    content: 'After heading';
+    border: 1px dashed black;
+    color:indigo
+}
+h1::before{
+    content: 'Before heading';
+    border: 1px dashed black;
+    color:indigo
+}
+ul li::before{
+    content: "\0260E";
+}

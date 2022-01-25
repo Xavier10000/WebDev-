@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100%;
+    color: white;
+    top: 0;
+
+}
+h2{
+    display: inline-block;
+    padding:10px 50px;
+    width: 100px;
+}
+#special{
+    position: absolute;
+    right: 20px;
+}
+main{
+    margin-top: 3rem;
+}

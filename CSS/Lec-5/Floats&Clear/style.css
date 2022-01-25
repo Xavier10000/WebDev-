@@ -1,0 +1,10 @@
+div{
+    width: 75vw;
+    border: 10px solid lightgrey ;
+    margin:10px auto;
+
+}
+img{
+    float: left;
+    clear: left;
+}

@@ -1,0 +1,23 @@
+/* stylesheet for css units */
+section{
+    border:2px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+section div{
+    border: 3px dashed red;
+    height: 40%;
+    width: 60%;
+}
+li{
+    /* snowballing effect */
+    font-size: 2em; 
+
+}
+section:nth-of-type(2){
+    border:2px solid black;
+    background-color: cornflowerblue;
+    height: 40vh;/*view height*/
+    width: 60vw;/*view width*/
+}

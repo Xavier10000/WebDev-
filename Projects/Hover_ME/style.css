@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1637958654193-816fa4636b0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+button{
+    border: 2px solid red;
+    color: red;
+    background-color: rgba(00,00,00,00);
+    margin:50vh 50vw;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    border:2px solid yellow;
+    color: yellow;
+    background-color: rgba(00,00,00,00);
+    transform: scale(1.05);
+    \
+}

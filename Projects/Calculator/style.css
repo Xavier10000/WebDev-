@@ -1,0 +1,32 @@
+#container {
+    margin: 20px auto;
+    width: 250px;
+    height: 300px;
+    background-color: lightcyan;
+    text-align: center;
+  }
+  table {
+    margin: 10px auto;
+    width: 180px;
+    height: 150px;
+    border: 1px dotted black;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  td {
+    height: 5px;
+    width: 7px;
+    border: 1px solid gray;
+    border-radius: 2px;
+  }
+  button {
+    background-color: lightblue;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: bisque;
+  }

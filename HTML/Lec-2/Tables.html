@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border='10' cellspacing='15' cellpadding='10'>
+        <!-- <thead>-> table head -->
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th></th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+        </thead>
+        <!-- table body -->
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>Maths</td>
+                <td>Eng</td>
+                <td>phy</td>
+                <th rowspan="6">L<br>u<br>n<br>c<br>h</th>
+                <!-- <td rowspan='4'>chem</td> -->
+                <td>chem</td>
+                <td>games</td>
+                <td>lib</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Maths</td>
+                <td>Eng</td>
+                <td>phy</td>
+                <td>chem</td>
+                <td>games</td>
+                <td>lib</td>
+            
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Maths</td>
+                <td>Eng</td>
+                <td>phy</td>
+                <td>chem</td>
+                <td>games</td>
+                <td>lib</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="2">Maths</td>
+                <td>phy</td>
+                <td>chem</td>
+                <td>games</td>
+                <td>lib</td>
+            </tr>
+            <tr>
+                <th>friday</th>
+                <td>Maths</td>
+                <td>Eng</td>
+                <td>phy</td>
+                <td>chem</td>
+                <td>games</td>
+                <td>lib</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Maths</td>
+                <td>Eng</td>
+                <td>phy</td>
+                <td colspan="3">chem</td>
+                
+            </tr>
+        </tbody>
+        <!-- table foot -->
+        <tfoot>
+            <th colspan="8"> Time table for class-11</th>
+        </tfoot>
+    </table>
+</body>
+</html>

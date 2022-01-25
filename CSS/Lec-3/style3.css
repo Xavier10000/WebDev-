@@ -1,0 +1,30 @@
+p{  
+    /* Dimensions */
+    height: 100px;
+    width: 400px;
+
+    /* border */
+    border: 2px solid red;
+
+    /* margin */
+    /* margin: 50px; */
+    margin-top: 10px;
+    margin-right: 20px; 
+    margin-bottom: 30px;
+    margin-left: 40px;
+    
+
+    /* or
+    margin:10px 20px 30px 40px;
+           top  right bottom left  
+    
+    margin:20px 30px;
+         top&bottom  left & right
+    */
+
+    /* padding */
+    padding: 50px;
+
+    
+
+}

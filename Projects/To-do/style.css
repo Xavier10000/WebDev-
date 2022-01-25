@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+section{
+    margin: 20px auto;
+    background-color: burlywood;
+    width: 400px;
+    height: 600px;    
+}
+h1{
+    margin: 20px auto;
+    margin-left: 20%;
+    font-size: 2.5rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: rgba(105, 16, 16, 0.521);
+}
+#inp{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: cornsilk;
+}
+#btn{
+    height: 30px;
+    border-radius: 10%;
+    background-color: cornsilk;
+}
+#list{
+    margin: 10px;
+    font-weight: 800;
+    font-size: xx-large;
+    color: rgba(105, 16, 16, 1);
+}
+ul button{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    border-radius: 45%;
+    
+    background-color: cornsilk;
+    margin-left: 5px;;
+
+}

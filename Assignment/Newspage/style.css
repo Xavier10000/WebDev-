@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    border: 10px solid lightgrey;
+    margin: 10px auto;
+    width: 75vw;
+}
+img{
+    float: left;
+    clear: left;
+}
+
+div{
+    margin:10px 20px;
+    padding:10px 10px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+div:nth-of-type(2){
+    margin: 10px 20px;
+    border: none;
+    padding:10px 10px;
+    border-top: 1px solid black;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+}
+section{
+    width: 80vw;
+    text-align: center;
+}
+li{
+    font-size: 2rem;
+    border: 2px solid black;
+}
+ul{
+    list-style-position: inside;
+    /* list-style-type: square; */
+    list-style-image: linear-gradient(to right,red,yellow);
+    /* OR
+     list-style:type position image; 
+     */
+}

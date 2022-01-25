@@ -1,0 +1,46 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    background-color: rgb(18, 20, 126);
+}
+nav{
+    background-color: rgb(18, 20, 126);
+    color: cornsilk;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    padding: 0.5rem 1rem;
+    margin-left: 5px;
+    /* width: 90px;     */
+    background-color: rgb(18, 20, 126);
+}
+nav a{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10%;
+}
+
+.after_resize{
+    display: flex;
+    flex-direction: column; 
+}
+
+button{
+    display: none;
+}
+
+.special{
+    border: none; 
+    display: inline;
+    padding: 1rem 1rem;
+    background-color: rgb(18, 20, 126);
+    color: cornsilk;
+    margin-left: 5px;
+}

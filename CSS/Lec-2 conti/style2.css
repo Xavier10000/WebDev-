@@ -1,0 +1,23 @@
+/* universal selector */
+*{
+    border: 1px solid gray;
+}
+/* Element selector */
+h1{
+    color:chartreuse;
+}
+/* id selector */
+#special{
+    color: crimson;
+    background-color: rgb(44, 199, 96);
+    text-align: center;
+}
+/* class selector */
+.fav_movie{
+    color: darkgreen;
+    text-decoration: line-through;
+}
+/* attribute selector */
+input[type='text']{
+    background-color: darkturquoise;
+}

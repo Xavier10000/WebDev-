@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+#special{
+    color: blue
+}
+.heading{
+    color: green;
+}
+#list{
+    font-size: 40px;
+}
+
+ul > li{
+    border-top: 5px solid black;
+}

@@ -1,0 +1,16 @@
+/* Descendent combinators */
+article strong{
+    color:red;
+}
+/* child combinator */
+ul>li{
+    border:2px solid blueviolet;
+}
+/* Adjacent combinator */
+h4+p{
+    background-color: chartreuse;
+}
+/* General sibling combinator */
+h3~p{
+    text-decoration: line-through;
+}

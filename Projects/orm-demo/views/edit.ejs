@@ -1,0 +1,22 @@
+<%- include("./partials/header") %> 
+<%- include("./partials/navbar") %> 
+
+<h1>Edit Blog</h1>
+
+<form action="/blogs/<%=blog.id%>?_method=PATCH" method="post">
+    <label for="author">Author</label>
+    <input type="text" name="author" id="author" value="<%=blog.author%>">
+
+
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" value="<%=blog.title%>">
+    
+    <label class="form-label" for="img">Image</label>
+    <input class="form-control" type="text" name="img" id="img" value="<%=blog.img%>">
+    
+    <label class="form-label" for="content">Content</label>
+    <textarea class="form-control" name="content" id="content" rows="5" value="<%=blog.content%>"></textarea>
+
+
+    <button type="submit">Update</button>
+</form>

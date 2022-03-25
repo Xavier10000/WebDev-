@@ -1,0 +1,25 @@
+<%- include("./partials/header") %> 
+<%- include("./partials/navbar") %> 
+
+<section class="container">
+    
+    <h1 class="display-4"><%=blog.title%> </h1>
+    <img src="<%=blog.img%>" alt="">
+    <p>By <%=blog.author%></p>
+    <p><%=blog.content%> </p>
+    <form action="/blogs/<%=blog.id%>/edit" method="get">
+        <button type="submit">Edit</button>
+    </form>
+    <!-- <a href="/blogs/<%=blog.id%>/edit">edit</a> -->
+    <form action="/blogs/<%=blog.id%>?_method=DELETE" method="post">
+        <button type="submit">Delete</button>
+    </form>
+</section>
+
+
+<%- include("./partials/footer") %> 
+
+
+
+    
+

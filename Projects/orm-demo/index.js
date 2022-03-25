@@ -83,13 +83,17 @@ app.patch('/blogs/:id',async (req,res) =>{
      {returning : true,where:{ id : id }}
      );
      
-     res.redirect('/blogs');
+     res.redirect(`/blogs/${id}`);
 
 });
 
 app.delete('/blogs/:id',async (req,res)=>{
     const { id } = req.params;
-    await Blog.findByIdAndDelete(id);
+    await Blog.destroy({
+        where:{
+            id : id
+        }
+    });
     res.redirect('/blogs');
 })
 

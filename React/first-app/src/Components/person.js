@@ -1,7 +1,7 @@
 import React from "react";
 import useToggle from "../Hooks/useToggle";
 
-const Person= () => {
+const Person = () => {
     const [toggle,setToggle] = useToggle(true);
 
     return (
@@ -12,4 +12,4 @@ const Person= () => {
     )
 }
 
-export default person
+export default Person

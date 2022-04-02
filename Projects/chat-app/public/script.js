@@ -6,7 +6,6 @@ const user = document.getElementById('user');
 const userStatus = document.getElementById('typeStatus');
 
 const socket = io();
-const isTyping = false;
 
 $('#chat').hide(); // hide the chat section in html
 

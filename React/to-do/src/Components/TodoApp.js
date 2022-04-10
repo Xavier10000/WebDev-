@@ -35,6 +35,11 @@ const Todoapp = () => {
             return [...prevState, {id:uuidv4(),title:title,isCompleted:false}];
         })
     }
+    const deleteTodo = (id)=>{
+        return setTodos((prevState)=>{
+            return prevState.filter((todo)=>todo.id!==id);
+        })
+    }
 
 
     return (
@@ -43,7 +48,7 @@ const Todoapp = () => {
             <Form addTodo={addTodo}/>
         </section>
         <section>
-            <TodoList todos={todos}/>
+            <TodoList todos={todos} deleteTodo={deleteTodo}/>
         </section>
     </Fragment>
   )

@@ -1,9 +1,10 @@
 import React from 'react';
 import Food from '../Food/Food';
+import styles from './Foodlist.module.css'
 
 const FoodList = (props) => {
   return (
-      <ul>
+      <ul className={styles.box}>
           {
               props.foods.map((food) => {
                   return <Food

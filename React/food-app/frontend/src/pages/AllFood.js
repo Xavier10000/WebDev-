@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import FoodList from '../components/FoodList/FoodList';
+import styles from './AllFood.module.css';
 
 const AllFood = () => {
 
@@ -20,10 +21,10 @@ const AllFood = () => {
 
 
     return (
-        <div>
+        <div className={styles.AllFood}>
             <h1>All Foods</h1>
-            <FoodList foods={foods} />
-      </div>
+            <FoodList  foods={foods} />
+        </div>
     )
 }
 

@@ -1,12 +1,15 @@
 import React from 'react'
+import styles from './Food.module.css'
 
 const Food = (props) => {
   return (
-      <li>
-          <p>{props.name}</p>
-          <p>{props.desc}</p>
+      <li className={styles.foodbox}>
+        <div className={styles.foodItem}>
+          <p className={styles.name}>{props.name}</p>
+          <p className={styles.desc}>{props.desc}</p>
           <p>$ { props.price }</p>
-    </li>
+        </div>
+      </li>
   )
 }
 

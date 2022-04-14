@@ -1,0 +1,15 @@
+.foodItem{
+    margin: 50px auto;
+}
+.foodbox{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.name{
+    font-weight: 800;
+    color: maroon;
+}
+.desc{
+    font-weight: 600;
+    font-style: italic;
+}

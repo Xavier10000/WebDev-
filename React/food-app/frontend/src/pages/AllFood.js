@@ -22,7 +22,7 @@ const AllFood = () => {
 
     return (
         <div className={styles.AllFood}>
-            <h1>All Foods</h1>
+            <h1>AllFoods</h1>
             <FoodList  foods={foods} />
         </div>
     )

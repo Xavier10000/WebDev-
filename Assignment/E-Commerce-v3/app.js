@@ -6,7 +6,7 @@ const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 
 
-mongoose.connect('mongodb://localhost:27017/shopping-app')
+mongoose.connect('mongodb://127.0.0.1:27017/shopping-app')
     .then(() => console.log("DB CONNECTED"))
     .catch((err) => console.log(err));
 
